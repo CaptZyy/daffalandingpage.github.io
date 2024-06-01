@@ -1,0 +1,301 @@
+body {
+  font-family: Arial;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: #404eed;
+  width: 100%;
+  height: 100px;
+}
+
+.header .nav {
+  padding: 30px;
+  text-align: center;
+}
+
+.nav a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav a button {
+  margin-left: 80px;
+  width: 110px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 600;
+  border: none;
+  border-radius: 20px;
+}
+
+.main {
+  background-color: #404eed;
+  width: 100%;
+}
+
+.background {
+  height: 100%;
+}
+
+.section .background-left {
+  display: flex;
+  flex-direction: row;
+  align-self: self-end;
+}
+
+.section .background-right {
+  display: flex;
+  flex-direction: row;
+  align-self: self-end;
+}
+
+.section .background-right img {
+  width: 450px;
+  align-self: self-end;
+}
+
+.mainh1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: white;
+  justify-content: center;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+.paragraph {
+  margin: 0;
+  line-height: 1.625;
+  color: white;
+  text-align: left;
+}
+
+.section .background-left img {
+  width: 450px;
+  align-self: self-start;
+}
+.section {
+  background-image: url("./assets/background.svg");
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  height: 70vh;
+}
+
+.button-discord {
+  margin-top: 24px;
+  border-radius: 28px;
+  align-items: center;
+}
+
+.button-discord button a {
+  text-decoration: none;
+}
+
+.button-discord button {
+  font-size: 20px;
+  padding: 16px 32px;
+  margin-top: 24px;
+  border-radius: 28px;
+}
+
+.button-white button {
+  color: black;
+  background: white;
+}
+
+.button-black button {
+  color: white;
+  background: black;
+}
+
+.main2 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+}
+
+.text2 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 56px;
+  margin-top: -5px;
+  max-width: 300px;
+}
+
+.text2 {
+  margin-right: 40px;
+}
+
+.main3 {
+  background-color: #f6f6f6;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+}
+
+.text3 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 56px;
+  margin-top: -5px;
+  max-width: 300px;
+}
+
+.main4 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+  margin-right: 20px;
+}
+
+.text4 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 56px;
+  margin-top: -5px;
+  max-width: 300px;
+}
+
+.image4 img {
+  margin-right: 40px;
+}
+
+.main5 {
+  justify-content: center;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.text5 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 56px;
+  padding-top: 20px;
+}
+
+.button-download p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.button-blue button {
+  font-size: 20px;
+  padding: 16px 32px;
+  margin-top: 24px;
+  border-radius: 28px;
+  color: white;
+  background: #5865f2;
+  margin-bottom: 20px;
+}
+
+.mainFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #23272a;
+  bottom: 0;
+}
+
+.mainFooter a {
+  color: white;
+  margin-top: 20px;
+}
+
+.mainFooter h4 {
+  color: #404eed;
+  margin-bottom: -10px;
+}
+
+.mainFooter div {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.mainFooter a:hover {
+  text-decoration: none;
+}
+
+.languange {
+  width: 70px;
+  height: 70px;
+  margin-top: 40px;
+  margin-right: 70px;
+}
+
+h3 {
+  color: white;
+  margin-left: 20px;
+}
+
+.flag{
+  width: 80px;
+  padding: 20px;
+
+}
+
+.discord {
+  background-color: #23272a;
+  border-top: #404eed;
+}
+
+.discord-logo {
+  display: flex;
+  justify-content: center;
+  gap: 60%;
+  flex-direction: row;
+  border-top:  solid;
+  border-color: #404eed;
+}
+
+.discord-logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.lastButton button {
+  height: 50px;
+  margin-top: 24px;
+  border-radius: 28px;
+  color: white;
+  background: #5865f2;
+  margin-bottom: 20px;
+}
+
+.image {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image.visible {
+  opacity: 1;
+}
+
+
+
+
